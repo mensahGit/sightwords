@@ -1,0 +1,19 @@
+.box {
+  border: 5px solid #333;
+  width: 1700px;
+  height: 1200px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.image{
+  width: 1700px;
+  height: 1200px;
+}
+
+.box .image {
+  transition: all 12.5s ease-in 0.3s;
+}
+.box .image:hover {
+  transform: scale(1.5);
+  /* Opera */
+}
